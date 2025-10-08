@@ -1,6 +1,6 @@
 // Arquivo: pages/index.tsx (Conteúdo Colado)
 
-import SarandiMaisVerde from './SarandiMaisVerde';
+import SarandiMaisVerde from '../components/SarandiMaisVerde';
 // export default SarandiMaisVerde; <- Remova este 'export' duplicado
 // Arquivo: pages/index.js           <- Remova esta linha de comentário
 
