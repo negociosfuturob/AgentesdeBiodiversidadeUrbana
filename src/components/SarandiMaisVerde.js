@@ -21,11 +21,25 @@ export default function SarandiMaisVerde() {
         <div className={styles.heroContent}>
           <h1 className={styles.heroTitle}>
             Formação
-            <br /> Sarandi Mais Verde
+            <br /> Sarandi + Verde
           </h1>
           <p className={styles.heroSubtitle}>
             Agentes de Biodiversidade Urbana
           </p>
+          <div className={styles.heroText}>
+            <p>
+              Olá! Seja bem-vindo(a) à Formação Sarandi + Verde – Agentes de
+              Biodiversidade Urbana.
+            </p>
+            <p>
+              Liderado pelo Instituto RetomadaBR, o Sarandi + Verde é um
+              programa de regeneração urbana e comunitária no bairro Sarandi, em
+              Porto Alegre. Nossa iniciativa foi criada como uma resposta ativa
+              aos impactos das enchentes e outros desastres climáticos recentes,
+              buscando transformar o Sarandi em um modelo de sustentabilidade e
+              inovação social.
+            </p>
+          </div>
           <button className={styles.button}>
             <a
               href="https://forms.gle/uaAcbsipA2HQ6myf6"
@@ -37,12 +51,6 @@ export default function SarandiMaisVerde() {
               <FaArrowRight className={styles.buttonIcon} />
             </a>
           </button>
-          <p className={styles.heroText}>
-            As inscrições já estão abertas!
-            <br /> Preencha o formulário e participe da formação como um
-            verdadeiro Agente de Biodiversidade Urbana, contribuindo para
-            transformar o bairro Sarandi.
-          </p>
         </div>
       </section>
 
@@ -50,17 +58,31 @@ export default function SarandiMaisVerde() {
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>
           <FaLeaf className={styles.sectionIcon} />
-          <span>Sobre a Formação</span>
+          <span>Quem Somos?</span>
         </h2>
         <p>
-          A Formação{" "}
-          <strong>Sarandi Mais Verde – Agentes de Biodiversidade Urbana</strong>{" "}
-          capacita participantes para planejar, implantar e cuidar de espaços
-          verdes urbanos, promovendo biodiversidade, resiliência climática e
-          engajamento comunitário. São aulas teóricas e práticas sobre ecologia
-          urbana, solo, vegetação, árvores, água e a técnica de Floresta
-          Miyawaki.
+          O Instituto RetomadaBR é uma organização comprometida com a
+          recuperação de áreas degradadas e a resiliência comunitária. Atuamos
+          com projetos que promovem o desenvolvimento sustentável e o
+          fortalecimento de comunidades, sempre com foco em soluções baseadas na
+          natureza.
         </p>
+      </section>
+
+      {/* Program Section */}
+      <section className={styles.section}>
+        <h2 className={styles.sectionTitle}>
+          <FaLeaf className={styles.sectionIcon} />
+          <span>O Programa</span>
+        </h2>
+        <p>
+          O programa Sarandi + Verde combina ações práticas de recuperação de
+          áreas degradadas com:
+        </p>
+        <ul className={styles.programList}>
+          <li>Soluções baseadas na natureza (infraestrutura verde) e</li>
+          <li>Processos de capacitação comunitária.</li>
+        </ul>
       </section>
 
       {/* Schedule Section */}
@@ -136,20 +158,16 @@ export default function SarandiMaisVerde() {
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>
           <FaMapMarkerAlt className={styles.sectionIcon} />
-          <span>Locais da Formação</span>
+          <span>Localização</span>
         </h2>
-        <div>
-          <p>
-            <strong>Aulas práticas:</strong> Praça Oliveira Rolim – Sarandi,
-            Porto Alegre – RS, 91120-270 (local piloto para intervenções de
-            resiliência climática).
-          </p>
-          <p>
-            <strong>Aulas teóricas:</strong> Local a confirmar – será informado
-            no grupo de WhatsApp do projeto <em>Sarandi Mais Verde</em>, junto
-            aos professores e alunos.
-          </p>
-        </div>
+        <p>
+          A formação Sarandi + Verde – Agentes de Biodiversidade Urbana
+          acontecerá presencialmente no Bairro Sarandi, Porto Alegre.
+        </p>
+        <p>
+          <strong>Aulas práticas:</strong> Praça Oliveira Rolim – Sarandi, Porto
+          Alegre – RS, 91120-270.
+        </p>
       </section>
 
       {/* Library Section */}

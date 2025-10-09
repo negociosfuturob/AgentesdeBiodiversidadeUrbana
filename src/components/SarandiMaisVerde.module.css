@@ -231,6 +231,26 @@
   margin-bottom: 0;
 }
 
+.programList {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.programList li {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.programList li::before {
+  content: "●";
+  position: absolute;
+  left: 0;
+  color: var(--color-verde-escuro);
+}
+
 @media (min-width: 640px) {
   .section {
     padding: 3.5rem 1.5rem;
