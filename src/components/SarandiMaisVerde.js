@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./SarandiMaisVerde.module.css";
 import heroBg from "../assets/hero-bg.jpg";
 import retomadaLogo from "../assets/retomadabr-horizontal-03.png";
+import retomadaLogoBk from "../assets/retomadabr-horizontal-03-BK.png";
 import {
   FaLeaf,
   FaCalendarAlt,
@@ -19,6 +20,9 @@ export default function SarandiMaisVerde() {
       {/* Hero Section */}
       <section className={styles.heroSection}>
         <div className={styles.heroContent}>
+          <div className={styles.heroLogo}>
+            <img src={retomadaLogoBk} alt="RetomadaBR Logo" />
+          </div>
           <h1 className={styles.heroTitle}>
             Formação
             <br /> Sarandi + Verde
