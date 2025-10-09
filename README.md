@@ -1,3 +1,36 @@
+# Projeto Milena Agentes Biodiversidade
+
+## Color System
+
+The project uses a standardized color system with the following palette:
+
+| Color Name      | Hex Code | RGB            | CMYK          |
+|----------------|----------|----------------|---------------|
+| Verde Claro    | #b8d6aa  | 184, 214, 170 | 30, 02, 40, 00|
+| Azul Escuro    | #00142a  | 000, 020, 042 | 90, 80, 53, 70|
+| Verde Escuro   | #335439  | 051, 084, 057 | 75, 43, 80, 40|
+| Laranja Claro  | #daac73  | 218, 172, 115 | 15, 30, 60, 00|
+| Laranja        | #f6833d  | 246, 131, 061 | 00, 60, 80, 00|
+| Areia          | #f2ebd0  | 242, 235, 208 | 05, 05, 20, 00|
+
+### Usage
+
+These colors are available as CSS variables throughout the project. To use them in your components:
+
+```css
+.your-class {
+  color: var(--color-verde-claro);
+  background-color: var(--color-azul-escuro);
+}
+```
+
+For RGB values (useful for opacity/alpha channel):
+```css
+.your-class {
+  background-color: rgba(var(--color-verde-claro-rgb), 0.5);
+}
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

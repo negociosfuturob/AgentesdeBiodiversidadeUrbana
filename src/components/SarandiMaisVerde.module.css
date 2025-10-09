@@ -1,7 +1,7 @@
 .container {
   min-height: 100vh;
-  background: linear-gradient(to bottom, #f0fdf4, #dcfce7);
-  color: #1f2937;
+  background: linear-gradient(to bottom, var(--color-verde-claro), var(--color-areia));
+  color: var(--color-azul-escuro);
 }
 
 .heroSection {
@@ -113,8 +113,8 @@
 
 .button {
   margin-top: 1.5rem;
-  background: linear-gradient(135deg, #15803d 0%, #166534 100%);
-  color: white;
+  background: linear-gradient(135deg, var(--color-verde-escuro) 0%, var(--color-azul-escuro) 100%);
+  color: var(--color-areia);
   padding: 0;
   border-radius: 9999px;
   font-size: 1.125rem;
@@ -141,7 +141,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #166534 0%, #15803d 100%);
+  background: linear-gradient(135deg, var(--color-azul-escuro) 0%, var(--color-verde-escuro) 100%);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -209,7 +209,7 @@
 .sectionTitle {
   font-size: 1.75rem;
   font-weight: 600;
-  color: #15803d;
+  color: var(--color-verde-escuro);
   text-align: center;
   margin-bottom: 1.5rem;
   display: flex;
@@ -255,12 +255,12 @@
 
 .sectionIcon {
   font-size: 2rem;
-  color: #15803d;
+  color: var(--color-verde-escuro);
   opacity: 0.9;
 }
 
 .scheduleSection {
-  background-color: #bbf7d0;
+  background-color: var(--color-verde-claro);
   padding: 3rem 0;
 }
 
@@ -332,26 +332,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #dcfce7;
+  background-color: var(--color-areia);
   border-radius: 50%;
   margin-bottom: 0.5rem;
 }
 
 .moduleIcon {
   font-size: 1.5rem;
-  color: #15803d;
+  color: var(--color-verde-escuro);
 }
 
 .cardTitle {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #15803d;
+  color: var(--color-verde-escuro);
   margin-bottom: 0.5rem;
 }
 
 .footer {
-  background-color: #14532d;
-  color: #f0fdf4;
+  background-color: var(--color-verde-escuro);
+  color: var(--color-areia);
   text-align: center;
   padding: 2rem 1rem;
   font-size: 0.875rem;

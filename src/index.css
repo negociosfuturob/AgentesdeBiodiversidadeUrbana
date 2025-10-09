@@ -7,6 +7,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  /* Primary Colors */
+  --color-verde-claro: #b8d6aa;
+  --color-azul-escuro: #00142a;
+  --color-verde-escuro: #335439;
+  --color-laranja-claro: #daac73;
+  --color-laranja: #f6833d;
+  --color-areia: #f2ebd0;
+
+  /* RGB Values for special use cases */
+  --color-verde-claro-rgb: 184, 214, 170;
+  --color-azul-escuro-rgb: 0, 20, 42;
+  --color-verde-escuro-rgb: 51, 84, 57;
+  --color-laranja-claro-rgb: 218, 172, 115;
+  --color-laranja-rgb: 246, 131, 61;
+  --color-areia-rgb: 242, 235, 208;
+}
+
 * {
   box-sizing: border-box;
 }
