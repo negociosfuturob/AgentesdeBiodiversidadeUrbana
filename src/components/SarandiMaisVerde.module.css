@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  background: linear-gradient(to bottom, var(--color-verde-claro), var(--color-areia));
+  background-color: var(--color-areia);
   color: var(--color-azul-escuro);
 }
 
