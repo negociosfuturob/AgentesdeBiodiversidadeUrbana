@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./SarandiMaisVerde.module.css";
 import heroBg from "../assets/hero-bg.jpg";
+import retomadaLogo from "../assets/retomadabr-horizontal-03.png";
 import {
   FaLeaf,
   FaCalendarAlt,
@@ -18,7 +19,10 @@ export default function SarandiMaisVerde() {
       {/* Hero Section */}
       <section className={styles.heroSection}>
         <div className={styles.heroContent}>
-          <h1 className={styles.heroTitle}>Formação Sarandi Mais Verde</h1>
+          <h1 className={styles.heroTitle}>
+            Formação
+            <br /> Sarandi Mais Verde
+          </h1>
           <p className={styles.heroSubtitle}>
             Agentes de Biodiversidade Urbana
           </p>
@@ -136,7 +140,7 @@ export default function SarandiMaisVerde() {
         </h2>
         <div>
           <p>
-            📍 <strong>Aulas práticas:</strong> Praça Oliveira Rolim – Sarandi,
+            <strong>Aulas práticas:</strong> Praça Oliveira Rolim – Sarandi,
             Porto Alegre – RS, 91120-270 (local piloto para intervenções de
             resiliência climática).
           </p>
@@ -187,6 +191,9 @@ export default function SarandiMaisVerde() {
 
       {/* Footer */}
       <footer className={styles.footer}>
+        <div className={styles.footerLogo}>
+          <img src={retomadaLogo} alt="RetomadaBR Logo" />
+        </div>
         <p>
           Projeto desenvolvido pelo <strong>RetomadaBR</strong> e financiado
           pela <strong>Heineken</strong> — Formação Agentes de Biodiversidade
