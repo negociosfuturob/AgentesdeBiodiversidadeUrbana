@@ -44,7 +44,7 @@ export default function SarandiMaisVerde() {
               inovação social.
             </p>
           </div>
-          <button className={styles.button}>
+          <button className={styles.buttonPrimary}>
             <a
               href="https://forms.gle/uaAcbsipA2HQ6myf6"
               target="_blank"
@@ -84,7 +84,7 @@ export default function SarandiMaisVerde() {
           áreas degradadas com:
         </p>
         <ul className={styles.programList}>
-          <li>Soluções baseadas na natureza (infraestrutura verde) e</li>
+          <li>Soluções baseadas na natureza (infraestrutura verde)</li>
           <li>Processos de capacitação comunitária.</li>
         </ul>
       </section>
