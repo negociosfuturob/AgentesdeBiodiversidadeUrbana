@@ -162,8 +162,8 @@
 
 .button {
   margin-top: 1.5rem;
-  background: linear-gradient(135deg, var(--color-laranja) 0%, var(--color-laranja-claro) 100%);
-  color: var(--color-azul-escuro);
+  background: linear-gradient(135deg, var(--color-verde-escuro) 0%, var(--color-azul-escuro) 100%);
+  color: var(--color-areia);
   padding: 0;
   border-radius: 9999px;
   font-size: 1.125rem;
@@ -173,7 +173,7 @@
   font-weight: 600;
   overflow: hidden;
   position: relative;
-  box-shadow: 0 4px 15px rgba(246, 131, 61, 0.2);
+  box-shadow: 0 4px 15px rgba(51, 84, 57, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -202,7 +202,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, var(--color-laranja-claro) 0%, var(--color-laranja) 100%);
+  background: linear-gradient(135deg, var(--color-azul-escuro) 0%, var(--color-verde-escuro) 100%);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -218,7 +218,7 @@
 
 .button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(246, 131, 61, 0.3);
+  box-shadow: 0 6px 20px rgba(51, 84, 57, 0.3);
 }
 
 .button:hover::before {
@@ -268,7 +268,7 @@
 
 .button:active {
   transform: translateY(1px);
-  box-shadow: 0 2px 10px rgba(246, 131, 61, 0.2);
+  box-shadow: 0 2px 10px rgba(51, 84, 57, 0.2);
 }
 
 .section {
@@ -324,7 +324,7 @@
   content: "●";
   position: absolute;
   left: 0;
-  color: var(--color-laranja);
+  color: var(--color-verde-escuro);
   font-size: 1.2em;
 }
 
@@ -405,7 +405,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, var(--color-laranja), var(--color-laranja-claro));
+  background: linear-gradient(90deg, var(--color-verde-escuro), var(--color-azul-escuro));
 }
 
 @media (min-width: 640px) {
@@ -418,7 +418,7 @@
 .card:hover {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
-  border-color: var(--color-laranja);
+  border-color: var(--color-verde-escuro);
 }
 
 .cardContent {
