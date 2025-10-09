@@ -78,8 +78,9 @@
 }
 
 .heroTitle {
+  font-family: 'Nomads', 'Inter', sans-serif;
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 400;
   color: white;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
   margin-bottom: 0.75rem;
@@ -90,6 +91,7 @@
 
 
 .heroSubtitle {
+  font-family: 'Inter', sans-serif;
   font-size: 1.25rem;
   color: #ffffff;
   margin-top: 0.75rem;
@@ -141,6 +143,7 @@
   padding: 0;
   border-radius: 9999px;
   font-size: 1.125rem;
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
   transition: all 0.3s ease;
   border: none;
   cursor: pointer;
@@ -279,8 +282,9 @@
 }
 
 .sectionTitle {
+  font-family: 'Nomads', 'Inter', sans-serif;
   font-size: 1.75rem;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--color-verde-escuro);
   text-align: center;
   margin-bottom: 1.5rem;
@@ -456,8 +460,9 @@
 }
 
 .cardTitle {
+  font-family: 'Inter', sans-serif;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 600;
   color: var(--color-verde-escuro);
   margin-bottom: 0.5rem;
 }
