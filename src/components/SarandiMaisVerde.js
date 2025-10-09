@@ -94,7 +94,7 @@ export default function SarandiMaisVerde() {
         <div className={styles.scheduleGrid}>
           {[
             {
-              date: "18/10",
+              date: "19/10",
               title: "Módulo 0 – Integração na Paisagem",
               icon: FaLeaf,
             },
