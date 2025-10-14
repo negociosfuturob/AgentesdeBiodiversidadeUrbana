@@ -103,8 +103,8 @@ export default function SarandiMaisVerde() {
               icon: FaLeaf,
             },
             {
-              date: "26/10",
-              title: "Módulo 1 – Solo e Botânica",
+              date: "25/10",
+              title: "Módulo 1 – Solo e Plantas",
               icon: GiPlantRoots,
             },
             {
