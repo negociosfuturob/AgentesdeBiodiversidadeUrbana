@@ -172,6 +172,10 @@ export default function SarandiMaisVerde() {
           <strong>Aulas práticas:</strong> Praça Oliveira Rolim – Sarandi, Porto
           Alegre – RS, 91120-270.
         </p>
+            </p>
+        <p>
+          <strong>Aulas teóricas:</strong> Escola Aurora Rua Pedro dos Santos Sá, 50 — Sarandi
+        </p>
       </section>
 
       {/* Library Section */}
